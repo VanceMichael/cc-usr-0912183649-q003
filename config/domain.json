@@ -1,0 +1,14 @@
+{
+  "service_id": "robot-skill-registry",
+  "display_name": "人形机器人技能包兼容登记簿",
+  "terminology": [
+    "技能包",
+    "设备构型",
+    "验证证书"
+  ],
+  "http": {
+    "health_path": "/health",
+    "port": 8080
+  },
+  "storage": "sqlite"
+}
